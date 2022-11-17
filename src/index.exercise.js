@@ -58,7 +58,7 @@ const App = () => {
           Log in
         </button>
         <Dialog aria-label="Login form" isOpen={openModal === 'login'}>
-          <h3>Log in</h3>
+          <h3>Log in Form</h3>
           <button type="button" onClick={() => setOpenModal('none')}>
             close
           </button>
@@ -71,7 +71,7 @@ const App = () => {
           aria-label="Registration form"
           isOpen={openModal === 'register'}
         >
-          <h3>Register</h3>
+          <h3>Register Form</h3>
           <button type="button" onClick={() => setOpenModal('none')}>
             Close
           </button>
